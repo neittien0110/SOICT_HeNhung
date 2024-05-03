@@ -5,6 +5,7 @@ Học liệu dành cho học phần Hệ nhúng
 ## Mục lục
 
 - [Tool Kit - Bộ công cụ thực hành Arduino](#tool-kit---bộ-công-cụ-thực-hành-arduino)
+- [Tool Kit - Bộ công cụ thực hành STM32](#tool-kit---bộ-công-cụ-thực-hành-stm32)
 
 ## Tool Kit - Bộ công cụ thực hành Arduino
 
@@ -19,3 +20,4 @@ Học liệu dành cho học phần Hệ nhúng
   ![Danh sách linh kiện](https://github.com/neittien0110/SOICT_HeNhung/assets/8079397/c87d6015-2907-4a42-bd65-dbd2cabd3e21)
 
 ## Tool Kit - Bộ công cụ thực hành STM32
+  (..đang thực hiện..)
