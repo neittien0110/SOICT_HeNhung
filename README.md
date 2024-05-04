@@ -6,6 +6,7 @@ Học liệu dành cho học phần Hệ nhúng
 
 - [Tool Kit - Bộ công cụ thực hành Arduino](#tool-kit---bộ-công-cụ-thực-hành-arduino)
 - [Tool Kit - Bộ công cụ thực hành STM32](#tool-kit---bộ-công-cụ-thực-hành-stm32)
+- [Breadboard cắm dây](#beadboard-cắm-dây)
 
 ## Tool Kit - Bộ công cụ thực hành Arduino
 
@@ -21,3 +22,18 @@ Học liệu dành cho học phần Hệ nhúng
 
 ## Tool Kit - Bộ công cụ thực hành STM32
   (..đang thực hiện..)
+
+## Breadboard cắm dây
+
+- Mini breadboard:\
+  - Cấu trúc: từng nhóm 6 lỗ nối thông với nhau \
+    ![Mini breadboard](https://github.com/neittien0110/SOICT_HeNhung/assets/8079397/9f83dd84-c99b-4f35-8837-393ebaae158b)\
+  - Kết hợp 2 breadboad mini để cắm MCU - nhìn từ trên xuống \
+    ![image](https://github.com/neittien0110/SOICT_HeNhung/assets/8079397/95f91b6f-3e55-4412-992e-e2106beafbe5)
+  - Kết hợp 2 breadboad mini để cắm MCU - nhìn từ cạnh bên \
+   ![image](https://github.com/neittien0110/SOICT_HeNhung/assets/8079397/aee0ed03-ccf7-4607-ae0e-6e12e481eaa2)
+
+
+
+
+- Tham khảo: <https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard/all>
