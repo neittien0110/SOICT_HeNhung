@@ -25,8 +25,8 @@ Học liệu dành cho học phần Hệ nhúng
 
 ## Breadboard cắm dây
 
-- Mini breadboard:\
-  - Giả lập wowki minh họa cách sử dụng: <https://wokwi.com/projects/396940585346083841>\
+- Mini breadboard:
+  - Giả lập wowki minh họa cách sử dụng kết hợp 2 mini breadboard: <https://wokwi.com/projects/396940585346083841>\
     ![image](https://github.com/neittien0110/SOICT_HeNhung/assets/8079397/34a9ff24-c26e-43af-a0c6-327662c9aa9c)
 
   - Cấu trúc: từng nhóm 6 lỗ nối thông với nhau \
@@ -35,8 +35,11 @@ Học liệu dành cho học phần Hệ nhúng
     ![image](https://github.com/neittien0110/SOICT_HeNhung/assets/8079397/95f91b6f-3e55-4412-992e-e2106beafbe5)
   - Kết hợp 2 breadboad mini để cắm MCU - nhìn từ cạnh bên \
    ![image](https://github.com/neittien0110/SOICT_HeNhung/assets/8079397/aee0ed03-ccf7-4607-ae0e-6e12e481eaa2)
-
-
-
+- Half breadboard:
+  - Giả lập wowki minh họa cách sử dụng kết hợp 2 half breadboard: <https://wokwi.com/projects/396941371646011393>\
+    ![image](https://github.com/neittien0110/SOICT_HeNhung/assets/8079397/5a61cbca-9fb3-4176-9c65-694433929df0)
+- Breadboard:
+  - Giả lập wowki minh họa cách sử dụng breadboard: <https://wokwi.com/projects/396941799195558913>\
+    ![image](https://github.com/neittien0110/SOICT_HeNhung/assets/8079397/1ef63610-c6c6-43dc-ba9c-fb9c4262fab4)
 
 - Tham khảo: <https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard/all>
