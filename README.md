@@ -28,7 +28,6 @@ Học liệu dành cho học phần Hệ nhúng
 - Mini breadboard SYB-170:
   - Giả lập wowki minh họa cách sử dụng kết hợp 2 mini breadboard: <https://wokwi.com/projects/396940585346083841>\
     ![image](https://github.com/neittien0110/SOICT_HeNhung/assets/8079397/34a9ff24-c26e-43af-a0c6-327662c9aa9c)
-
   - Cấu trúc: từng nhóm 6 lỗ nối thông với nhau \
     ![Mini breadboard](https://github.com/neittien0110/SOICT_HeNhung/assets/8079397/9f83dd84-c99b-4f35-8837-393ebaae158b)\
   - Kết hợp 2 breadboad mini để cắm MCU - nhìn từ trên xuống \
