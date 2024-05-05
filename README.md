@@ -41,5 +41,7 @@ Học liệu dành cho học phần Hệ nhúng
 - Breadboard:
   - Giả lập wowki minh họa cách sử dụng breadboard: <https://wokwi.com/projects/396941799195558913>\
     ![image](https://github.com/neittien0110/SOICT_HeNhung/assets/8079397/1ef63610-c6c6-43dc-ba9c-fb9c4262fab4)
+- Breadboard Sunhayato SAD-12
+    ![image](https://github.com/neittien0110/SOICT_HeNhung/assets/8079397/6da38f41-f17d-4d17-aa1a-944694943e93)
 
 - Tham khảo: <https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard/all>
