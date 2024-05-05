@@ -25,7 +25,7 @@ Học liệu dành cho học phần Hệ nhúng
 
 ## Breadboard cắm dây
 
-- Mini breadboard:
+- Mini breadboard SYB-170:
   - Giả lập wowki minh họa cách sử dụng kết hợp 2 mini breadboard: <https://wokwi.com/projects/396940585346083841>\
     ![image](https://github.com/neittien0110/SOICT_HeNhung/assets/8079397/34a9ff24-c26e-43af-a0c6-327662c9aa9c)
 
