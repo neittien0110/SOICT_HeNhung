@@ -21,7 +21,42 @@ Học liệu dành cho học phần Hệ nhúng
   ![Danh sách linh kiện](https://github.com/neittien0110/SOICT_HeNhung/assets/8079397/c87d6015-2907-4a42-bd65-dbd2cabd3e21)
 
 ## Tool Kit - Bộ công cụ thực hành STM32
-  (..đang thực hiện..)
+
+  ![mặt trước STM32F429-DISC1](https://github.com/user-attachments/assets/9e90f84e-d338-453d-85de-97f533ccc272)
+  ![mặt trước STM32F429-DISC1 phần nút bấm](https://github.com/user-attachments/assets/ec7a1ae9-0857-4224-b597-055bd47dceb7)
+  ![mặt trước STM32F429-DISC1 phần cổng Mini USB](https://github.com/user-attachments/assets/ef39afee-f989-4f53-afec-c86cf07ba21e)
+  và dây Mini USB để nạp chương trình\
+  ![Mini USB](https://github.com/user-attachments/assets/99d5363e-bfc9-40e1-bec6-ecdf675a64fc)
+
+### Cài đặt phần mềm STM32 CubeIDE
+ 
+STM32 CubeIDE là giao diện lập trình, debug, và biên dịch cho các MCU dòng STM32. Đây cũng là phần mềm chính sử dụng trong **Thực hành** của học phần.
+1. Tải về bộ cài đặt ở [homepage của phần mềm](https://www.st.com/en/development-tools/stm32cubemx.html#get-software), hoặc từ bộ tải về từ [link sau](https://husteduvn.sharepoint.com/:u:/s/HnhngIT4210-2024.2/ESNGgEjq0cxHl7lqpJVtXU0Bm_i1ZSXjTgporS81Oi3z-w?e=x3oCWR).
+> Chú ý: Bộ cài nặng 1GB. Việc cài đặt qua homepage sẽ cần đăng kí email, và có thể chọn phiên bản WindowsOS, Linux, hoặc MacOS.
+2. Cài chương trình đơn giản, như trong hướng dẫn. Chỉ cần xem từ giây thứ 15 tới 1:05 phút. \
+[![Video hướng dẫn](https://github.com/user-attachments/assets/fa34bf56-828b-4e7d-a0da-3cbddcfbae02)](https://youtu.be/CJbSfO6rkEk?si=NN-sCUCKCnF0A2We&t=15)
+
+> Chú ý: Hãy tiếp tục chạy phần mềm và tạo một dự án demo như hướng dẫn bên dưới. Lý do là chương trình sẽ yêu cầu tạo tài khoản truy cập và tự động tải về thêm các soft package __vài trăm MB__ khá nặng. Nên thực hiện trước khi đến lớp. 
+
+### Sử dụng phần mềm STM32 CubeIDE
+
+1. Chạy phần mềm STM32 CubeIDE
+2. Ở menu trái, chọn **Start new STM32 project**.\
+   ![image](https://github.com/user-attachments/assets/23fde9ed-cc14-4f17-b102-3899a4607010)
+3. Cửa sổ **STM32 Project** được mở. Chọn tab **Board Selector**.
+   Ở mục **Board Filters**, trong phần **Commercial Part Number** tìm cụm từ ***STM32F429I-DISC1***
+   Ở góc dưới bên phải, bấm **Next**
+   ![Chọn board STM32F429-DISC1](https://github.com/user-attachments/assets/8fe2d421-d98e-4cbc-8407-2dac21b4a179)
+4. Cửa sổ **STM32 Project** thay đổi giao diện mới.
+   Nhập **Project Name**.
+   Bấm **Next**.
+   ![image](https://github.com/user-attachments/assets/8a124016-773f-4fc6-afca-b706b556ce8c)
+
+   > Chú ý: Cảnh báo như trong ảnh dưới có thể bỏ qua.\
+   ![image](https://github.com/user-attachments/assets/d7f40dbb-9137-484d-b19b-be71f9e4e356)
+5. Dự án mới đã được tạo.\
+   ![image](https://github.com/user-attachments/assets/ba95e5b3-246c-4fc2-8eea-615f655264a3)
+
 
 ## Breadboard cắm dây
 
