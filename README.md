@@ -6,7 +6,7 @@ Học liệu dành cho học phần Hệ nhúng
 
 - [Tool Kit - Bộ công cụ thực hành Arduino](#tool-kit---bộ-công-cụ-thực-hành-arduino)
 - [Tool Kit - Bộ công cụ thực hành STM32](#tool-kit---bộ-công-cụ-thực-hành-stm32)
-- [Breadboard cắm dây](#beadboard-cắm-dây)
+- [Breadboard cắm dây](#breadboard-cắm-dây)
 
 ## Tool Kit - Bộ công cụ thực hành Arduino
 
