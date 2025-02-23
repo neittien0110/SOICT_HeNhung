@@ -54,8 +54,20 @@ STM32 CubeIDE là giao diện lập trình, debug, và biên dịch cho các MCU
 
    > Chú ý: Cảnh báo như trong ảnh dưới có thể bỏ qua.\
    ![image](https://github.com/user-attachments/assets/d7f40dbb-9137-484d-b19b-be71f9e4e356)
-5. Dự án mới đã được tạo.\
+5. Dự án mới, với mục tiêu làm **đèn led nhấp nháy**, đã được tạo.\
    ![image](https://github.com/user-attachments/assets/ba95e5b3-246c-4fc2-8eea-615f655264a3)
+
+6. Ở cửa sổ __Project Explorer__ bên trái, click file __.ioc__ của dự án
+7. Trong cửa sổ __Pinout & Configuration__, trong tab __Categories__, ở mục __System Core__, bấm chọn __GPIO__.\
+   Ở giữa màn hình, trong phần __GPIO Mode and Configuration__ sẽ nhìn thấy danh sách các chân GPIO đã cài đặt sẵn phù hợp với board đã chọn
+   ![Porting](https://github.com/user-attachments/assets/4624e85c-9bb6-4128-8864-2eb3a96124ca)
+   > Cách khác là ở phần bên phải, bấm __Pinout view__, sau đó tìm và bấm vào chân GPIO trên hình mô phỏng.\
+   ![Pintout view / System view](https://github.com/user-attachments/assets/f2741dc3-0f4b-4a1d-8b44-559f9d227155)
+8. Nếu cần hiệu chỉnh các chân GPIO thì thực hiện.\
+   Nếu không, cứ bỏ qua.
+10. Trên thanh __menu bar__, chọn __Project__, bấm __Generate Code__
+    ![Generate Code](https://github.com/user-attachments/assets/1da13016-0159-424e-9a19-e250f3b9948e)
+
 
 
 ## Breadboard cắm dây
