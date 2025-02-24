@@ -35,10 +35,14 @@ STM32 CubeIDE là giao diện lập trình, debug, và biên dịch cho các MCU
 > Chú ý: Bộ cài nặng 1GB. Việc cài đặt qua homepage sẽ cần đăng kí email, và có thể chọn phiên bản WindowsOS, Linux, hoặc MacOS.
 2. Cài chương trình đơn giản, như trong hướng dẫn. Chỉ cần xem từ giây thứ 15 tới 1:05 phút. \
 [![Video hướng dẫn](https://github.com/user-attachments/assets/fa34bf56-828b-4e7d-a0da-3cbddcfbae02)](https://youtu.be/CJbSfO6rkEk?si=NN-sCUCKCnF0A2We&t=15)
-
 > Chú ý: Hãy tiếp tục chạy phần mềm và tạo một dự án demo như hướng dẫn bên dưới. Lý do là chương trình sẽ yêu cầu tạo tài khoản truy cập và tự động tải về thêm các soft package __vài trăm MB__ khá nặng. Nên thực hiện trước khi đến lớp. 
+3. Chạy phần mềm STM32 CubeIDE
+4. Đăng nhập vào tài khoản MyST để tải về các gói còn lại. Trên thanh menu chọn __Help/STM32 Cube updates/ Connection to MyST__
+   ![image](https://github.com/user-attachments/assets/8d0a8fe4-7223-4ccf-b7f6-f7413901240c)
+6. Hoàn thành các bước [tạo một dự án dưới như bên dưới](#tạo-dự-án-mới-với-stm32-cubeide). Lúc này sẽ kích hoạt các quá trình update thêm gói để **Generate Code**
+> Chú ý: Nếu không hoàn thành bước __Đăng nhập__ và __Update các gói__ thì chương trình chính sẽ chỉ gồm một file .ioc duy nhất mà không có bất cứ file nội dung nào khác.
 
-### Sử dụng phần mềm STM32 CubeIDE
+### Tạo dự án mới với STM32 CubeIDE
 
 1. Chạy phần mềm STM32 CubeIDE
 2. Ở menu trái, chọn **Start new STM32 project**.\
