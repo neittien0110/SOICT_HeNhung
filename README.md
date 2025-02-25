@@ -43,7 +43,8 @@ STM32 CubeIDE là giao diện lập trình, debug, và biên dịch cho các MCU
 > Chú ý: Nếu không hoàn thành bước __Đăng nhập__ và __Update các gói__ thì chương trình chính sẽ chỉ gồm một file .ioc duy nhất mà không có bất cứ file nội dung nào khác.
 
 ### Tạo dự án mới với STM32 CubeIDE
-
+  [Video minh họa](https://youtu.be/iNICh5uWPAE)\
+  [![thumbnail](https://github.com/user-attachments/assets/a94c4d47-ae35-493e-ba66-fdd838403d2c)](https://youtu.be/iNICh5uWPAE)
 1. Chạy phần mềm STM32 CubeIDE
 2. Ở menu trái, chọn **Start new STM32 project**.\
    ![image](https://github.com/user-attachments/assets/23fde9ed-cc14-4f17-b102-3899a4607010)
