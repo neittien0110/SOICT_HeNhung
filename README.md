@@ -4,11 +4,17 @@ Học liệu dành cho học phần Hệ nhúng
 
 ## Mục lục
 
-- [Tool Kit - Bộ công cụ thực hành Arduino](#tool-kit---bộ-công-cụ-thực-hành-arduino)
-- [Tool Kit - Bộ công cụ thực hành STM32](#tool-kit---bộ-công-cụ-thực-hành-stm32)
+- [Tool Kit - Bộ công cụ thực hành STM32 và Arduino](#tool-kit---bộ-công-cụ-thực-hành-stm32-và-arduino)
+- [Phần mềm STM32 CubeIDE](#phần-mềm-stm32-cubeide)
+  - [Cài đặt phần mềm STM32 CubeIDE](#cài-đặt-phần-mềm-stm32-cubeide)
+  - [Tạo dự án mới với STM32 CubeIDE](#tạo-dự-án-mới-với-stm32-cubeide)
 - [Breadboard cắm dây](#breadboard-cắm-dây)
+- [Các bài thực hành](#các-bài-thực-hành)
+  1. [Nháy đèn buit-in LED trên board](#nháy-đèn-buit-in-led-trên-board)
+  2. [Mở rộng - Nháy đèn LED lắp ngoài](#mở-rộng---nháy-đèn-led-lắp-ngoài)
 
-## Tool Kit - Bộ công cụ thực hành Arduino
+
+## Tool Kit - Bộ công cụ thực hành STM32 và Arduino
 
 **Toàn cảnh**\
 ![Hộp 1](https://github.com/neittien0110/SOICT_HeNhung/assets/8079397/cc05d098-bf48-4706-adfa-b92327892a7c)
@@ -20,13 +26,15 @@ Học liệu dành cho học phần Hệ nhúng
 - Danh sách linh kiện\
   ![Danh sách linh kiện](https://github.com/neittien0110/SOICT_HeNhung/assets/8079397/c87d6015-2907-4a42-bd65-dbd2cabd3e21)
 
-## Tool Kit - Bộ công cụ thực hành STM32
-
   ![mặt trước STM32F429-DISC1](https://github.com/user-attachments/assets/9e90f84e-d338-453d-85de-97f533ccc272)
   ![mặt trước STM32F429-DISC1 phần nút bấm](https://github.com/user-attachments/assets/ec7a1ae9-0857-4224-b597-055bd47dceb7)
   ![mặt trước STM32F429-DISC1 phần cổng Mini USB](https://github.com/user-attachments/assets/ef39afee-f989-4f53-afec-c86cf07ba21e)
   và dây Mini USB để nạp chương trình\
   ![Mini USB](https://github.com/user-attachments/assets/99d5363e-bfc9-40e1-bec6-ecdf675a64fc)
+
+## Phần mềm STM32 CubeIDE
+
+Dùng để lập trình cho STM32F429-DISC1
 
 ### Cài đặt phần mềm STM32 CubeIDE
  
@@ -96,3 +104,24 @@ STM32 CubeIDE là giao diện lập trình, debug, và biên dịch cho các MCU
     ![image](https://github.com/neittien0110/SOICT_HeNhung/assets/8079397/6da38f41-f17d-4d17-aa1a-944694943e93)
 
 - Tham khảo: <https://learn.sparkfun.com/tutorials/how-to-use-a-breadboard/all>
+
+## Các bài thực hành
+
+### Nháy đèn buit-in LED trên board
+
+ Xem ở phần[Tạo dự án mới với STM32 CubeIDE](#tạo-dự-án-mới-với-stm32-cubeide)
+
+### Mở rộng - Nháy đèn LED lắp ngoài
+
+ ![image](https://github.com/user-attachments/assets/a07cefcb-a14f-4e6c-b843-43cc4c3b74cf)
+
+- Bước 1: giữ phần mềm + thêm phần cứng
+  - Giữ nguyên phần mềm của của bài [Nháy đèn buit-in LED trên board](#nháy-đèn-buit-in-led-trên-board)
+  - Lắp breadboad với led và điện trở, đấu nối với các chân PG13, PG14 (cùng chân PIN với built-in led trên board)
+  - Kết quả mong đợi: đèn led built-in và led ngoài nhấy nháy giống hệt nhau
+- Bước 2: đổi phần mềm + giữ phần cứng
+  - Giữ nguyên breadboard như ở bước 1
+  - Cấu hình lại phần mềm, không sử dụng chân PG13, PG14 nữa mà dùng chân PIN khác tùy chọn.
+  - Kết quả mong đợi: led ngoài vẫn nhấy nháy giống như ở bước 1.
+- Minh họa trên wowki: <https://wokwi.com/projects/396942366366011393>
+
