@@ -113,7 +113,7 @@ STM32 CubeIDE là giao diện lập trình, debug, và biên dịch cho các MCU
 
 ### Mở rộng - Nháy đèn LED lắp ngoài
 
- ![image](https://github.com/user-attachments/assets/a07cefcb-a14f-4e6c-b843-43cc4c3b74cf)
+![image](https://github.com/user-attachments/assets/075d0820-accf-4040-bd1c-db9f703b37ce)
 
 - Bước 1: giữ phần mềm + thêm phần cứng
   - Giữ nguyên phần mềm của của bài [Nháy đèn buit-in LED trên board](#nháy-đèn-buit-in-led-trên-board)
