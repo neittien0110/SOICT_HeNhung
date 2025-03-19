@@ -132,6 +132,6 @@ STM32 CubeIDE là giao diện lập trình, debug, và biên dịch cho các MCU
 - Bước 1: lắp 1 led 7 đoạn và điều khiển tắt bật từng đoạn trong 7 đoạn của led. Cách làm tương tự bài tập trước
 - Bước 2: giữ nguyên board. Xây dựng thuật toán giải mã, để tạo hình các đèn led đơn sáng thành số 0, 1, 2, 3 ... 9
 - Bước 3: giữ nguyên phần mềm. trên board thêm đèn 7-seg và đấu nối song song. Kết quả mong đợi là cả 2 đèn sẽ nhảy số giống hệt nhau.
-- Bước 4: giữ nguyên phần mềm và kiểm tra transistor hoạt động ra sao. Trên board thêm transistor N2222 cho từng led, hãy dùng 1 điên trở 330~1k (để hạn chế dòng vào cực Base) để nối giữa nguồn 3V3 và cực base, có tác dùng làm cho Trans ở trạng thái thông mạch và mong đợi đèn 7-seg sẽ sáng.
-- Bước 5: Trên board, gắn cực Base của transistor N2222 với 1 pin của STM32. Lập trình điều khiển để 1 trong thời điểm chỉ có 1 đèn 7-seg được sáng
+- Bước 4: giữ nguyên phần mềm và kiểm tra transistor hoạt động ra sao. Trên board thêm transistor N2222 cho từng led, hãy dùng 1 điên trở 4.7k (để hạn chế dòng vào cực Base) để nối giữa nguồn 3V3 và cực base, có tác dùng làm cho Trans ở trạng thái thông mạch và mong đợi đèn 7-seg sẽ sáng.
+- Bước 5: Trên board, gắn cực Base của transistor N2222 với 1 pin của STM32 (vẫn có điện trở 4.7K). Lập trình điều khiển để 1 trong thời điểm chỉ có 1 đèn 7-seg được sáng
 - Minh họa trên wowki: <https://wokwi.com/projects/425825654973202433>
