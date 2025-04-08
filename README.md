@@ -9,10 +9,18 @@ Học liệu dành cho học phần Hệ nhúng
   - [Cài đặt phần mềm STM32 CubeIDE](#cài-đặt-phần-mềm-stm32-cubeide)
   - [Tạo dự án mới với STM32 CubeIDE](#tạo-dự-án-mới-với-stm32-cubeide)
 - [Breadboard cắm dây](#breadboard-cắm-dây)
+- [Các lỗi thường gặp và khắc phục](https://github.com/neittien0110/SOICT_HeNhung/issues?q=is%3Aissue)
+- [Các bài code mẫu đơn giản]
+  - [Làm việc với đèn led 7-đoạn](https://github.com/neittien0110/STM32F429-Led7segs)
+  - [Phát hiện sự kiện ngắt](https://github.com/neittien0110/STM32F429-Interrupt)
+  - [Sự kiện ngắt thời gian định kỳ với các bộ timer](https://github.com/neittien0110/STM32F429-Timer)
+  - [Giao tiếp với module SR-04 để khoảng cách trong cự li ngắn](https://github.com/neittien0110/STM32F429-HC_SR04)
+  - [Giao tiếp với máy tính qua cổng COM với module UART](https://github.com/neittien0110/STM32F429-UART)
+  - [Làm việc với ADC để đọc giá trị dạng analog từ biến trở, các module cảm biến có chân pin A0](https://github.com/neittien0110/STM32F429-AnalogRead)  
 - [Các bài thực hành](#các-bài-thực-hành)
   1. [Nháy đèn buit-in LED trên board](#nháy-đèn-buit-in-led-trên-board)
-  2. [Mở rộng - Nháy đèn LED lắp ngoài](#mở-rộng---nháy-đèn-led-lắp-ngoài)
-
+  2. [Nháy đèn LED lắp ngoài](#nháy-đèn-led-lắp-ngoài)
+  3. [Điều khiển led 7 đoạn](#điều-khiển-led-7-đoạn)
 
 ## Tool Kit - Bộ công cụ thực hành STM32 và Arduino
 
@@ -109,9 +117,9 @@ STM32 CubeIDE là giao diện lập trình, debug, và biên dịch cho các MCU
 
 ### Nháy đèn buit-in LED trên board
 
- Xem ở phần[Tạo dự án mới với STM32 CubeIDE](#tạo-dự-án-mới-với-stm32-cubeide)
+- [GitHub](https://github.com/neittien0110/STM32F429-LEDRaw)
 
-### Mở rộng - Nháy đèn LED lắp ngoài
+### Nháy đèn LED lắp ngoài
 
 ![image](https://github.com/user-attachments/assets/075d0820-accf-4040-bd1c-db9f703b37ce)
 
@@ -125,7 +133,7 @@ STM32 CubeIDE là giao diện lập trình, debug, và biên dịch cho các MCU
   - Kết quả mong đợi: led ngoài vẫn nhấy nháy giống như ở bước 1.
 - Minh họa trên wowki: <https://wokwi.com/projects/396942366366011393>
 
-### Mở rộng - Điều khiển led 7 đoạn
+### Điều khiển led 7 đoạn
 
 ![image](https://github.com/user-attachments/assets/b3f5dcc6-37e7-4361-aece-60f1b093ac4c)
 
@@ -135,3 +143,4 @@ STM32 CubeIDE là giao diện lập trình, debug, và biên dịch cho các MCU
 - Bước 4: giữ nguyên phần mềm và kiểm tra transistor hoạt động ra sao. Trên board thêm transistor N2222 cho từng led, hãy dùng 1 điên trở 4.7k (để hạn chế dòng vào cực Base) để nối giữa nguồn 3V3 và cực base, có tác dùng làm cho Trans ở trạng thái thông mạch và mong đợi đèn 7-seg sẽ sáng.
 - Bước 5: Trên board, gắn cực Base của transistor N2222 với 1 pin của STM32 (vẫn có điện trở 4.7K). Lập trình điều khiển để 1 trong thời điểm chỉ có 1 đèn 7-seg được sáng
 - Minh họa trên wowki: <https://wokwi.com/projects/425825654973202433>
+- [GitHub](https://github.com/neittien0110/STM32F429-Led7segs)
