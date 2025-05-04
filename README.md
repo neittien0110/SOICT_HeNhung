@@ -18,6 +18,7 @@ Học liệu dành cho học phần Hệ nhúng
   - [Giao tiếp với máy tính qua cổng COM với module UART](https://github.com/neittien0110/STM32F429-UART)
   - [Làm việc với ADC để đọc giá trị dạng analog từ biến trở, các module cảm biến có chân pin A0. Cả 3 phương pháp Polling, Interrupt, DMA](https://github.com/neittien0110/STM32F429-AnalogRead)
   - [Đọc thẻ NFC 13.56MHz bằng module RC-522](https://github.com/neittien0110/STM32F429-RC522)
+  - [Hiển thị trên màn hình OLED 1"3](https://github.com/neittien0110/STM32F429-I2C.git)
 - [Các bài thực hành](#các-bài-thực-hành)
   1. [Nháy đèn buit-in LED trên board](#nháy-đèn-buit-in-led-trên-board)
   2. [Nháy đèn LED lắp ngoài](#nháy-đèn-led-lắp-ngoài)
