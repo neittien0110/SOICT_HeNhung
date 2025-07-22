@@ -24,6 +24,7 @@ Học liệu dành cho học phần Hệ nhúng
   1. [Nháy đèn buit-in LED trên board](#nháy-đèn-buit-in-led-trên-board)
   2. [Nháy đèn LED lắp ngoài](#nháy-đèn-led-lắp-ngoài)
   3. [Điều khiển led 7 đoạn](#điều-khiển-led-7-đoạn)
+- [Hỏi đáp - Các phát sinh](./ISSUES.md)
 
 ## Tool Kit - Bộ công cụ thực hành STM32 và Arduino
 
