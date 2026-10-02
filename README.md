@@ -51,7 +51,7 @@ Dùng để lập trình cho STM32F429-DISC1
 ### Cài đặt phần mềm STM32 CubeIDE
  
 STM32 CubeIDE là giao diện lập trình, debug, và biên dịch cho các MCU dòng STM32. Đây cũng là phần mềm chính sử dụng trong **Thực hành** của học phần.
-1. Tải về bộ cài đặt ở [homepage của phần mềm](https://www.st.com/en/development-tools/stm32cubemx.html#get-software), hoặc từ bộ tải về từ [link sau](https://husteduvn.sharepoint.com/:u:/s/HnhngIT4210-2024.2/ESNGgEjq0cxHl7lqpJVtXU0Bm_i1ZSXjTgporS81Oi3z-w?e=x3oCWR).
+1. Tải về bộ cài đặt ở [homepage của phần mềm](https://www.st.com/en/development-tools/stm32cubemx.html#get-software), hoặc từ bộ tải về từ [link sau](#phụ-lục).
 > Chú ý: Bộ cài nặng 1GB. Việc cài đặt qua homepage sẽ cần đăng kí email, và có thể chọn phiên bản WindowsOS, Linux, hoặc MacOS.
 2. Cài chương trình đơn giản, như trong hướng dẫn. Chỉ cần xem từ giây thứ 15 tới 1:05 phút. \
 [![Video hướng dẫn](https://github.com/user-attachments/assets/fa34bf56-828b-4e7d-a0da-3cbddcfbae02)](https://youtu.be/CJbSfO6rkEk?si=NN-sCUCKCnF0A2We&t=15)
@@ -148,3 +148,10 @@ STM32 CubeIDE là giao diện lập trình, debug, và biên dịch cho các MCU
 - Bước 5: Trên board, gắn cực Base của transistor N2222 với 1 pin của STM32 (vẫn có điện trở 4.7K). Lập trình điều khiển để 1 trong thời điểm chỉ có 1 đèn 7-seg được sáng
 - Minh họa trên wowki: <https://wokwi.com/projects/425825654973202433>
 - [GitHub](https://github.com/neittien0110/STM32F429-Led7segs)
+
+## Phụ lục
+
+- thư mục tải sẵn <https://husteduvn-my.sharepoint.com/:f:/g/personal/tien_nguyenduc_hust_edu_vn/IgBTnQlApNISSZpma_Z6wkgeATHHlkUlxnSyKvK_t8rf9rg?e=rjDSGa>
+  - STM32CubeMX: SetupSTM32CubeMX-6.17.0-Win.exe:  công cụ bắt đầu cho 1 dự án mới, để cấu hình dự án cho phù hợp với board phát triển, bằng giao diện đồ họa --> sinh code.
+  - Stm32 CUBE Ide: st-stm32cubeide_2.0.0_26820_20251114_1348_x86_64.exe, công cụ lập trình chính, lập trình C, kết nối kit và cấu hình, nạp chương trình
+  - Touch GFX: STMicroelectronics.X-CUBE-TOUCHGFX.4.26.1.zip, công cụ thiết kế giao diện đồ họa kiểu kéo thả, tạo hàm sự kiện --> sinh code C --> tiếp tục lập trình bằng CUBE
